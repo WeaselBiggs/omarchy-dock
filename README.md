@@ -97,3 +97,11 @@ but a manifest change needs `omarchy restart shell`. When the stock dock
 changes in an Omarchy update, `diff -ru /usr/share/omarchy/shell/plugins/dock
 ~/.config/omarchy/plugins/dan.dock` shows exactly what the clone carries on
 top of it.
+
+## Related plugins
+
+More of the same for the Omarchy shell, each installed with `omarchy plugin add <url> --enable`:
+
+- [omarchy-vapour](https://github.com/WeaselBiggs/omarchy-vapour) — playtime for Steam, Battle.net and anything else that opens a window, in the bar.
+- [omarchy-thunderclock](https://github.com/WeaselBiggs/omarchy-thunderclock) — the stock clock with Thunderbird calendar events marked on the calendar.
+- [omarchy-thermals](https://github.com/WeaselBiggs/omarchy-thermals) — system temperatures and fans from hwmon, with a panel listing every probe.
