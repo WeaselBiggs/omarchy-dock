@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "dan.dock",
+  "name": "My Dock",
+  "version": "1.0.0",
+  "author": "Forsythe McSquiddington",
+  "description": "App dock shown on floating workspaces, with a running-app indicator under each icon",
+  "kinds": [
+    "service",
+    "menu"
+  ],
+  "entryPoints": {
+    "service": "Dock.qml",
+    "menu": "Menu.qml"
+  },
+  "omarchy": {
+    "clonedFrom": "omarchy.dock"
+  }
+}
